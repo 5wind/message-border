@@ -1,0 +1,373 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+html{
+	width:100%;
+	background: #eee;
+}
+body{
+	width:100%;
+}
+.login{
+	float:left
+	
+	}
+.register{
+	float:right
+}
+.top{
+	
+	width: 100%;
+	background:white;
+	padding: 0px 10px 0px 10px;
+	height: 40px;
+	line-height: 40px;
+	box-sizing: border-box;
+}
+
+#app{
+	width: 100%;
+}
+.list{
+	width: 100%;
+	background: white;
+	margin:40px 0px 40px 0px;
+	box-sizing:border-box;
+}
+.user,.password,.Email{
+	margin-left: 40px;
+	border-bottom: 1px solid #eee;
+	height: 60px;
+	line-height: 60px;
+	box-sizing:border-box;
+}
+.myuser,.mypassword{
+	margin-left: 17px;
+	font-size: 18px;
+	border:none;
+	outline: none;
+	box-sizing:border-box;
+}
+.press{
+	width:60%;
+	height: 36px;
+	background: green;
+	color: white;
+	outline: none;
+	border: none;
+	
+}
+.buttonone{
+	width: 100%;
+	text-align: center;
+}
+.navlist{
+	position:fixed;
+	bottom: 0px;
+	width: 100%;
+	background: #f7f7f8;
+}
+.navlist ul{
+	overflow: hidden;
+	width: 100%;
+}
+.navlist ul li{
+	width: 33%;
+	float: left;
+	height:54px;
+	text-align: center;
+	
+}
+.navlist ul li p{
+	width: 100%;
+	float: left;
+	
+}
+.my{
+	color:skyblue;
+}
+.issuetop{
+	background: #eee;
+	height: 40px;
+	width: 100%;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+	
+}
+.content{
+	background: white;
+	width: 100%;
+	height: 300px;
+	margin: 20px 0px 20px 0px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+.fileframe{
+	width: 100%;
+	height: 260px;
+	resize:none;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	margin-top: 3px;
+}
+.title{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	box-sizing: border-box;
+	outline:none;
+	border:none;
+}
+.contentone,.titleone{
+	width: 100%;
+	box-sizing: border-box;
+	line-height: 40px;
+	border-bottom: 6px solid #eee;
+}
+.contentone{
+	height: 260px;
+	
+}
+.titleone{
+	height: 40px;
+}
+
+div{
+	width: 100%;
+	box-sizing: border-box;
+}
+.anniu{
+	width: 100%;
+	padding: 0px 30px 0px 30px;
+	box-sizing: border-box;
+	height: 50px;
+}
+.delete{
+	width: 45%;
+	margin-right: 10%;
+	box-sizing: border-box;
+	background: #f6383a;
+	outline: none;
+	border: none;
+	height: 40px;
+	color: white;
+	border-radius: 80px;
+}
+.publish{
+	width: 45%;
+	background: green;
+	outline: none;
+	border: none;
+	height: 40px;
+	color: white;
+	border-radius: 80px;
+}
+.apparent{
+	float:left;
+}
+.indextop{
+	
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	float:right;
+
+	
+	
+}
+
+.touxiang{
+	border-radius: 80px;
+}
+.indextop p:nth-of-type(1){
+	width: 12%;
+	float: left;
+}
+.indextop p:nth-of-type(2){
+	width:88%;
+	float: left;
+	margin-top:4px;
+	font-size: 12px;
+	
+}
+.yonghuming{
+	display: block;
+	width:100%;
+}
+
+.indextop p:nth-of-type(2) span:nth-of-type(2){
+	margin-top: 5px;
+}
+.titlethree{
+	width:100%;
+	padding:20px;
+	margin-top: 45px;
+	box-sizing: border-box;
+}
+.contenttwo{
+	width: 100%;
+	padding:0px 20px 0px 20px;
+	box-sizing:border-box;
+	word-break: break-all;
+}
+.pinglun{
+	width: 100%;
+	padding:0px 30px 0px 30px;
+	box-sizing: border-box;
+	margin-top:10px;
+}
+.pinglun img{
+	display: inline-block;
+	margin-right: 2%;
+}
+.pinglun span{
+	margin-right: 2%;
+}
+.spanuser,.spanpassword{
+	display: inline-block;
+	width:26%;
+}
+.reset{
+	width: 45%;
+	margin-right: 10%;
+	box-sizing: border-box;
+	background: #f6383a;
+	outline: none;
+	border: none;
+	height: 40px;
+	color: white;
+	
+}
+.registeraa{
+	width: 45%;
+	background: green;
+	outline: none;
+	border: none;
+	height: 40px;
+	color: white;
+	
+}
+.log{
+	color:black;
+}
+.listto{
+	width:100%;
+	padding:10px;
+	box-sizing: border-box;
+}
+.listto p:nth-of-type(1){
+	height:30px;
+}
+.time{
+	height:30px;
+	border-bottom: 1px solid lightgray;
+}
+.contentfour{
+	padding:10px 30px 10px 30px;
+	box-sizing: border-box;
+	width: 100%;
+}
+.ping{
+	font-family: "黑体";
+}
+.author{
+	border-top:1px solid lightgray;
+}
+.author span:nth-of-type(3){
+	display: block;
+}
+.author span{
+	margin-top: 6px;
+}
+.tuxiang{
+	margin-top:13px;
+	
+}
+.commentit{
+	width: 100%;
+	position: fixed;
+	bottom:0px;
+}
+.commentit input{
+	width: 98%;
+	height: 56px;
+	text-indent: 20px;
+	line-height:56px;
+	outline: none;
+	border:none;
+	border:2px solid lightgray;
+}
+.commentit button{
+	position: absolute;
+	right: 10px;
+	top:5px;
+	width: 20%;
+	height:50px;
+	text-align: center;
+	line-height: 50px;
+	background: deepskyblue;
+	border-radius: 10px;
+	outline: none;
+	border:none;
+	color: white;
+}
+.me{
+	text-align: center;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	margin-bottom: 20px;
+	background: white;
+}
+.mehead{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	margin-top: 10px;
+	box-sizing: border-box;
+	background: white;
+	padding: 0px 10px;
+}
+.mehead img{
+	margin-top:10px;
+}
+.mehead span:nth-of-type(1){
+	float: left;
+}
+.mehead span:nth-of-type(2){
+	float:right;
+}
+.infor{
+	margin-top:30px;
+	background: white;
+	width:100%;
+	height: 30px;
+	line-height: 30px;
+}
+.infor img{
+	position: relative;
+	bottom: -6px;
+}
+.retu{
+	background: red;
+	width: 60%;
+    height: 36px;
+    color: white;
+    outline: none;
+    border: none;
+}
+.resign{
+	width: 100%;
+    text-align: center;
+    margin-top:30px;
+}
+.publishziye{
+	width: 100%;
+	overflow: auto;
+}
+
+
